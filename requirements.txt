@@ -1,0 +1,48 @@
+# =============================================================================
+#  PDF Master Toolkit - Python dependencies
+#
+#  SUPPORTED PYTHON: 3.11, 3.12, 3.13 or 3.14 (64-bit)
+#
+#  Ranges rather than exact pins, deliberately. Pinning an exact version goes
+#  stale the moment a new Python ships: the pinned wheel has no build for it and
+#  pip fails with "no matching distribution". Ranges let pip pick whatever is
+#  current AND compatible with your interpreter.
+#
+#  Verified against PySide6 6.11.2, PyMuPDF 1.28.2, pypdf 6.16.2, Pillow 12.3.0.
+# =============================================================================
+
+# ---- user interface ---------------------------------------------------------
+# 6.10+ is required on Python 3.14; older Pythons resolve to whatever fits.
+PySide6>=6.6,<7
+
+# ---- PDF engine -------------------------------------------------------------
+# PyMuPDF does the heavy lifting: rendering, text extraction, redaction,
+# encryption, image handling.  NOTE: AGPL - see BUILDING.md before shipping
+# commercially.
+PyMuPDF>=1.24,<2
+pypdf>=4.2,<7
+
+# ---- images -----------------------------------------------------------------
+Pillow>=10.2,<13
+numpy>=1.26,<3            # deskew + Otsu thresholding (optional but recommended)
+
+# ---- Office formats ---------------------------------------------------------
+openpyxl>=3.1,<4          # Excel read/write
+python-docx>=1.1,<2       # Word write
+pdf2docx>=0.5.8,<0.6      # PDF -> Word with layout reconstruction
+pdfplumber>=0.11,<0.13    # table detection
+reportlab>=4.0,<6         # fallback rendering helper
+
+# ---- Windows integration ----------------------------------------------------
+pywin32>=306; sys_platform == "win32"     # MS Office automation + WIA scanning
+
+# ---- optional: cryptographic PDF signing ------------------------------------
+# Adds ~25 MB to the installer.  Comment out both lines to build without
+# certificate signing; the app detects its absence and says so on the Sign
+# screen rather than failing.
+pyhanko>=0.20,<1
+pyhanko-certvalidator>=0.26,<1
+
+# ---- packaging --------------------------------------------------------------
+pyinstaller>=6.10,<8
+pyinstaller-hooks-contrib>=2024.7

@@ -1,0 +1,9 @@
+.venv/
+build/
+dist/
+dist_installer/
+vendor/
+__pycache__/
+*.pyc
+build_version.txt
+installer/branding.iss
