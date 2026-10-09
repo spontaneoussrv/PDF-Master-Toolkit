@@ -1,0 +1,105 @@
+END USER LICENCE AGREEMENT
+PDF Master Toolkit
+SheetClub
+
+===============================================================================
+  TODO - PLACEHOLDER
+  Replace this file with your final end-user licence agreement before release.
+  The installer displays it on the licence page, and a copy is installed
+  alongside the application.
+===============================================================================
+
+
+1. LICENCE
+
+   Subject to the terms below, SheetClub grants you a non-exclusive,
+   non-transferable licence to install and use PDF Master Toolkit.
+
+
+2. YOUR DOCUMENTS AND YOUR PRIVACY
+
+   PDF Master Toolkit processes your files locally on your own computer.
+   Document content is not transmitted to SheetClub or to any third party.
+
+   The application keeps a local history of file names, operation names and
+   timestamps so that you can find your recent work. It never records the
+   contents of your documents, and never stores passwords. History can be
+   switched off entirely, and cleared at any time, in Settings > Privacy.
+
+
+3. WHAT THE SOFTWARE DOES AND DOES NOT DO
+
+   The following limits are inherent to the PDF format and are stated here so
+   that expectations are accurate:
+
+   (a) Conversion between PDF and editable formats such as Word and Excel is
+       an approximation. PDF is a fixed-layout format; no converter reproduces
+       every document exactly.
+
+   (b) Compression results depend entirely on the document. A file that is
+       already optimised may not get smaller. No specific reduction ratio is
+       promised.
+
+   (c) PDF permission settings (printing, copying, editing) are instructions
+       to the PDF reader, not enforcement. Compliant readers honour them;
+       others may not. Only an open password actually encrypts a document.
+
+   (d) Redaction removes the underlying text and image content from the file
+       rather than merely covering it. It does not remove content held in
+       attachments, form fields or external references, and it cannot undo
+       copies of the document made before redaction.
+
+   (e) Metadata removal clears the document information dictionary and XMP
+       packet. It does not guarantee anonymity: page content, embedded fonts
+       and image data may still identify a document's origin.
+
+   (f) Repair of damaged PDFs is attempted on a best-effort basis. Where the
+       original data is missing rather than misplaced, recovery is not
+       possible. The software reports how many pages were recovered and how
+       many were lost.
+
+   (g) OCR accuracy depends on scan quality, language and typeface. The
+       software does not guarantee error-free text recognition.
+
+   (h) Scanner support depends on the scanner's Windows WIA driver and is not
+       available for every device.
+
+
+4. RESTRICTIONS
+
+   You may not reverse engineer, decompile or disassemble the software except
+   to the extent that applicable law expressly permits.
+
+   The software does not provide, and must not be used to attempt, recovery or
+   circumvention of passwords on documents you are not authorised to open.
+
+
+5. NO WARRANTY
+
+   The software is provided "as is", without warranty of any kind, express or
+   implied. You are responsible for keeping backups of important documents.
+
+
+6. LIMITATION OF LIABILITY
+
+   To the maximum extent permitted by law, SheetClub shall not be liable for
+   any indirect, incidental, special or consequential damages, or for loss of
+   data or profits, arising from the use of or inability to use the software.
+
+
+7. OPEN-SOURCE COMPONENTS
+
+   This product includes open-source software. Each component is used under
+   its own licence, and the complete list is shown on the About screen inside
+   the application. Those licences prevail over this agreement in respect of
+   the components they cover.
+
+
+8. CONTACT
+
+   SheetClub
+   support@sheetclub.com
+   https://sheetclub.com
+
+
+Copyright (c) 2026 SheetClub. All rights reserved.
