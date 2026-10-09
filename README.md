@@ -1,6 +1,8 @@
 # PDF Master Toolkit
 
-An all-in-one PDF desktop suite for Windows 10 and 11, built with Python and Qt. It bundles 34 PDF tools in one app, and everything runs locally on your computer, so documents never leave the machine.
+An all-in-one PDF desktop suite for Windows 10 and 11, built with Python and Qt. It bundles 30+ PDF tools in one app, and everything runs locally on your computer, so documents never leave the machine.
+
+![Dashboard](docs/screenshots/dashboard.png)
 
 ## Features
 
@@ -23,6 +25,12 @@ Each page is rendered, cleaned up (deskew, auto-rotate, denoise, contrast, binar
 ### Visit Sorter
 
 Detects visit sets in large scanned care-documentation PDFs, exports them to Excel for review, rebuilds the file in date order and splits it into size-capped parts without breaking a visit across files.
+
+## Screenshots
+
+| Compress (dark theme) | Workflow Builder |
+|---|---|
+| ![Compress](docs/screenshots/compress-dark.png) | ![Workflow Builder](docs/screenshots/workflow-builder.png) |
 
 ## Design
 
